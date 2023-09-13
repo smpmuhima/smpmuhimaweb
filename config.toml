@@ -1,0 +1,379 @@
+baseURL = "https://smpmuhima.sch.id/"
+title = "SMP Muhima Ngoro"
+# post pagination
+paginate = "6"
+summaryLength = "10"
+# disqusShortname = "smpmuhima" # get your shortname form here : https://disqus.com
+disableLanguages = ["en"]
+defaultContentLanguage = "id"
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.svg"
+logo_footer = "images/logo_footer.svg"
+# Meta data
+description = "SMP Muhammadiyah 5 Ngoro. Cerdas, Kreatif, Terampil dan Berakhlaqul Karimah. Terletak Jalan Raya Kembangsri, No. 54, Kec. Ngoro, Kabupaten Mojokerto, Jawa Timur."
+author = "SMP Muhima"
+# contact info
+address = "Jl. Kembangsri No. 54, Ds. Kembangsri, Kec. Ngoro, Kabupaten Mojokerto, Jawa Timur 61385"
+mobile = "+6285176935108"
+email = "smpmuhimangoro@gmail.com"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# top header
+top_header = true
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "images/preloader.svg" # use jpg, png, svg or gif format.
+
+# Subscription
+[params.subscription]
+enable = true
+# mailchimp subsciption
+# mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+# mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+# google map
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "-7.535282494170857"
+map_longitude = "112.62204430614538"
+map_marker = "images/marker.png" # marker size 37*55 px
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+ # themify icon : https://themify.me/themify-icons
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook"
+link = "https://www.facebook.com/smpmuhimangoro"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram"
+link = "https://www.instagram.com/smpmuhima"
+
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt"
+link = "https://twitter.com/smpmuhima"
+
+[[params.social]]
+title = "github"
+icon = "ti-github"
+link = "https://github.com/smpmuhima"
+
+# [[params.social]]
+# title = "tiktok"
+# icon = "ti-tiktok"
+# link = "https://www.tiktok.com/@smpmuhima"
+
+# [[params.social]]
+# title = "linkedin"
+# icon = "ti-linkedin"
+# link = "#"
+
+# Indonesia navigation
+
+[Languages.id]
+languageName = "ID"
+languageCode = "id-id"
+contentDir = "content/indonesia"
+weight = 1
+
+[Languages.id.params]
+home = "Beranda"
+
+# copyright
+copyright = "Hakcipta &copy; 2023 SMP Muhima Ngoro"
+
+# Indonesia navigation
+
+[[Languages.id.menu.main]]
+weight = 2
+name = "Berita"
+hasChildren = true
+
+  [[Languages.id.menu.main]]
+  weight = 1
+  parent = "Berita"
+  name = "Blog"
+  url = "blog/"
+
+  [[Languages.id.menu.main]]
+  weight = 2
+  parent = "Berita"
+  name = "Buletin"
+  url = "bulletin/"
+  
+  [[Languages.id.menu.main]]
+  weight = 3
+  parent = "Berita"
+  name = "Dokumen"
+  url = "document/"
+
+  [[Languages.id.menu.main]]
+  weight = 4
+  parent = "Berita"
+  name = "Galeri"
+  url = "gallery/"
+
+  [[Languages.id.menu.main]]
+  weight = 5
+  parent = "Berita"
+  name = "Jadwal"
+  url = "schedule/"
+
+  [[Languages.id.menu.main]]
+  weight = 6
+  parent = "Berita"
+  name = "Pengumuman"
+  url = "notice/"
+
+  [[Languages.id.menu.main]]
+  weight = 7
+  parent = "Berita"
+  name = "Prestasi"
+  url = "performance/"
+
+  [[Languages.id.menu.main]]
+  weight = 8
+  parent = "Berita"
+  name = "Publikasi"
+  url = "publication/"
+
+  [[Languages.id.menu.main]]
+  weight = 9
+  parent = "Berita"
+  name = "Testimoni"
+  url = "testimony/"
+
+[[Languages.id.menu.main]]
+weight = 3
+name = "Agenda"
+hasChildren = true
+
+  [[Languages.id.menu.main]]
+  weight = 1
+  parent = "Agenda"
+  name = "Jurnalistik"
+  url = "agenda/journalistic/"
+
+  [[Languages.id.menu.main]]
+  weight = 2
+  parent = "Agenda"
+  name = "Kajian"
+  url = "agenda/study/"
+
+  [[Languages.id.menu.main]]
+  weight = 3
+  parent = "Agenda"
+  name = "Kompetisi"
+  url = "agenda/competition/"
+
+  [[Languages.id.menu.main]]
+  weight = 4
+  parent = "Agenda"
+  name = "Marbot Muhima Hijrah"
+  url = "agenda/m2h/"
+
+  [[Languages.id.menu.main]]
+  weight = 5
+  parent = "Agenda"
+  name = "Market Day"
+  url = "agenda/market-day/"
+
+  [[Languages.id.menu.main]]
+  weight = 6
+  parent = "Agenda"
+  name = "Muhadhoroh"
+  url = "agenda/muhadhoroh/"
+
+  [[Languages.id.menu.main]]
+  weight = 7
+  parent = "Agenda"
+  name = "P5"
+  url = "agenda/p5/"
+
+[[Languages.id.menu.main]]
+weight = 4
+name = "Informasi"
+hasChildren = true
+
+  [[Languages.id.menu.main]]
+  weight = 1
+  parent = "Informasi"
+  name = "Alur Pendaftaran"
+  url = "information/registration-flow/"
+
+  [[Languages.id.menu.main]]
+  weight = 2
+  parent = "Informasi"
+  name = "Program Unggulan"
+  url = "information/program-unggulan/"
+  
+  [[Languages.id.menu.main]]
+  weight = 3
+  parent = "Informasi"
+  name = "Ekstrakulikuler"
+  url = "information/extracurricular/"
+  
+  [[Languages.id.menu.main]]
+  weight = 4
+  parent = "Informasi"
+  name = "Kelulusan"
+  url = "information/Graduation/"
+
+[[Languages.id.menu.main]]
+weight = 5
+name = "Hasil Belajar"
+hasChildren = true
+
+  [[Languages.id.menu.main]]
+  weight = 1
+  parent = "Hasil Belajar"
+  name = "Akademik"
+  url = "learning-outcomes/academic/"
+
+  [[Languages.id.menu.main]]
+  weight = 2
+  parent = "Hasil Belajar"
+  name = "Non Akademik"
+  url = "learning-outcomes/non-academic/"
+
+# reference: https://donasi.dompetdhuafa.org
+[[Languages.id.menu.main]]
+weight = 6
+name = "Formulir"
+hasChildren = true
+
+  [[Languages.id.menu.main]]
+  weight = 1
+  parent = "Formulir"
+  name = "Pendaftaran Peserta Didik Baru"
+  url = "form/registration-new-students/"
+
+  [[Languages.id.menu.main]]
+  weight = 2
+  parent = "Formulir"
+  name = "Pendaftaran Alumni"
+  url = "form/alumni-list/"
+
+  [[Languages.id.menu.main]]
+  weight = 3
+  parent = "Formulir"
+  name = "Bimbingan Konseling"
+  url = "form/counseling-guidance/"
+
+  [[Languages.id.menu.main]]
+  weight = 4
+  parent = "Formulir"
+  name = "Lowongan Kerja"
+  url = "form/job-vacancy/"
+
+  [[Languages.id.menu.main]]
+  weight = 5
+  parent = "Formulir"
+  name = "Tanya & Jawab"
+  url = "form/question-answer/"
+
+[[Languages.id.menu.main]]
+weight = 7
+name = "Profil"
+hasChildren = true
+
+  [[Languages.id.menu.main]]
+  weight = 1
+  parent = "Profil"
+  name = "Sejarah"
+  url = "profile/history/"
+
+  [[Languages.id.menu.main]]
+  weight = 2
+  parent = "Profil"
+  name = "Visi & Misi"
+  url = "profile/vision-mission/"
+
+  [[Languages.id.menu.main]]
+  weight = 3
+  parent = "Profil"
+  name = "Guru & Tenaga Pendidik"
+  url = "profile/teacher/"
+
+  [[Languages.id.menu.main]]
+  weight = 4
+  parent = "Profil"
+  name = "Inventaris"
+  url = "profile/inventory/"
+
+  [[Languages.id.menu.main]]
+  weight = 6
+  parent = "Profil"
+  name = "Lokasi"
+  url = "profile/location/"
+
+  [[Languages.id.menu.main]]
+  weight = 7
+  parent = "Profil"
+  name = "Kontak"
+  url = "profile/contact/"
+
+# footer menu
+
+[[Languages.id.menu.footer]]
+weight = 1
+name = "Acara"
+url = "event/"
+
+[[Languages.id.menu.footer]]
+weight = 2
+name = "Layanan"
+url = "service/"
+
+[[Languages.id.menu.footer]]
+weight = 3
+name = "Pengumuman"
+url = "notice/"
+
+[[Languages.id.menu.footer]]
+weight = 4
+name = "Galeri"
+url = "gallery/"
+
+[[Languages.id.menu.footer]]
+weight = 5
+name = "Formulir"
+url = "form/"

@@ -1,0 +1,40 @@
+- beranda
+- berita
+    - blog
+    - buletin
+    - dokumen
+    - galeri
+    - jadwal
+    - pengumuman
+    - prestasi
+    - publikasi
+    - testimoni
+- agenda
+    - jurnalistik
+    - kajian
+    - kompetisi
+    - marbot muhima hijrah
+    - market day
+    - muhadhoroh
+    - P5
+- informasi
+    - alur pendaftaran
+    - program unggulan
+    - ekstrakulikuler
+    - kelulusan
+- hasil-belajar
+    - akademik
+    - non-akademik
+- formulir
+    - daftar peserta didik baru
+    - daftar alumni
+    - bimbingan konseling
+    - lowongan kerja
+    - tanya jawab
+- profil
+    - sejarah
+    - visi & misi
+    - guru & tenaga pendidikan
+    - inventaris
+    - lokasi
+    - kontak

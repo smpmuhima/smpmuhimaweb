@@ -1,0 +1,13 @@
+.DS_Store
+.dist
+.hugo_build.lock
+.sass-cache
+.tmp
+DS_Store
+Thumbs.db
+builds
+node_modules
+npm-debug.log
+package-lock.json
+public
+resources

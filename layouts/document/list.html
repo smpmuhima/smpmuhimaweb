@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<!-- document -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="list-unstyled">
+          <!-- document item -->
+          {{ range .Data.Pages }}
+          {{ .Render "document" }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /document -->
+
+{{ end }}

@@ -1,0 +1,131 @@
+
+- id: gallery
+  translation: Galeri
+- id: read_more
+  translation: Read more
+
+- id: contact_form
+  translation: Contact form
+
+- id: send
+  translation: Send message
+
+- id: contact_info
+  translation: Contact info
+
+- id: subscribe_newsletter
+  translation: Subscribe newsletter
+
+- id: subscribe
+  translation: Subscribe
+
+- id: contact_us
+  translation: Contact Us
+
+- id: latest_article
+  translation: Latest article
+
+- id: categories
+  translation: Categories
+
+- id: tags
+  translation: Tags
+
+- id: see_all
+  translation: See All
+
+- id: apply_now
+  translation: Apply now
+
+- id: posted_by
+  translation: Posted by
+
+- id: date
+  translation: Date
+
+- id: time
+  translation: Time
+
+- id: category
+  translation: Category
+
+- id: related_course
+  translation: Related course
+
+- id: duration
+  translation: Duration
+
+- id: weekly
+  translation: Weekly
+
+- id: fee
+  translation: Fee
+
+- id: teacher
+  translation: Teacher
+
+- id: location
+  translation: Location
+
+- id: entry_fee
+  translation: Entry fee
+
+- id: event_speaker
+  translation: Event speakers
+
+- id: more_event
+  translation: More events
+
+- id: join
+  translation: Join
+  
+- id: enter_email
+  translation: Enter your email…
+
+- id: company
+  translation: Profile
+
+- id: links
+  translation: Links
+
+- id: blog
+  translation: Article
+
+- id: event
+  translation: Event
+
+- id: courses
+  translation: Courses
+
+- id: gallery
+  translation: Gallery
+
+- id: new_notice
+  translation: Notice
+
+- id: call
+  translation: Phone
+
+- id: email
+  translation: Email
+
+- id: all
+  translation: All
+
+- id: interest
+  translation: Summary of activities/interests
+
+- id: our_teachers
+  translation: Our teachers
+
+- id: download
+  translation: Download
+
+- id: agreement_cookie
+  translation: This site uses cookies. By continuing to use this website, you agree to their use.
+
+- id: i_accept
+  translation: I Accept
+
+- id: prayer_time
+  translation: Prayer Time

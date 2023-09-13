@@ -1,0 +1,135 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-web.webp"
+  slider_item:
+    # slider item loop
+    - title : "We more be character. Pendidikan Islami untuk Generasi Emas."
+      content : "...."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Artikel Terbaru"
+        link : "blog/"
+
+    # slider item loop
+    - title : "Sekolah yang mengedepankan nilai-nilai Al-islam"
+      content : "...."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Jadwal Acara"
+        link : "event/"
+
+    # slider item loop
+    - title : "Prestasi akademik dan non-akademik tingkat kota/daerah dan provinsi."
+      content : "...."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Lihat Galeri"
+        link : "gallery/"
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Tahfidz Al-Quran dan Hadist"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "Program unggulan SMP Muhima agar menjadi penghafal Al-Quran yang berkarakter dan menguasai ilmu pnegetahuan."
+
+    # feature item loop
+    - name : "Prestasi dan Penghargaan"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "SMP Muhima menciptakan lingkungan juara bagi peserta didik agar dapat berkiprah di kancah tingkat daerah dan nasional."
+
+    # feature item loop
+    - name : "Kurikulum"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "Kurikulum yang digunakan oleh SMP Muhima adalah kurikulum nasional dan kurikulum khas Muhammadiyah."
+
+    # feature item loop
+    - name : "Ekstrakulikuler"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "Pentingnya ragam dan potensi setiap peserta didik yang didukung dengan program ekstrakulikuler."
+
+############################## about ##################################
+about:
+  enable : true
+  title : "Profil SMP Muhima Ngoro"
+  image : "images/about/about-us.png"
+  content : "SMP Muhammadiyah 5 Ngoro akan menjadi sekolah yang memiliki Kurikulum yang disesuaikan dengan situasi dan kondisi lingkungan sekolah, sehingga terselenggara proses pendidikan yang berbasis lingkungan sekolah dengan mengembangkan berbagai keunggulan-keunggulan dan kreatifitas dan inovasi sekolah."
+  button:
+    enable : true
+    label : "Lebih lanjut"
+    link : "profile/history/"
+
+############################# Course ################################
+course:
+  enable : false
+  title : "Kursus"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "Klik untuk Bergabung dengan SMP Muhima"
+  title : "Pendaftaran Peserta Didik Baru 2024/2025"
+  button:
+    enable : true
+    label : "Daftar Sekarang"
+    link : "form/registration-new-students/"
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.webp"
+  title : "Kurikulum Sekolah"
+  content : "Secara khusus kurikulum operasional SMP Muhammadiyah 5 Ngoro adalah sebagai perwujudan dari kurikulum pendidikan dasar dan menengah yang dikembangkan sesuai dengan kondisi sekolah serta saran Komite Sekolah di bawah koordinasi dan supervisi Dinas Pendidikan."
+  # video link
+  video_link : "#"
+
+############################# event ################################
+event:
+  enable : false
+  title : "Acara Mendatang"
+  # event item comes from "content/**/event" folder.
+
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "GURU"
+      count : "13"
+
+    # funfact item loop
+    - name : "PRESTASI"
+      count : "50"
+
+    # funfact item loop
+    - name : "MURID"
+      count : "160"
+
+    # funfact item loop
+    - name : "TINGKAT KEPUASAN"
+      count : "75"
+
+############################# blog ################################
+blog:
+  enable : false
+  title : "Postingan Terbaru"
+  # blog item comes from "content/**/blog" folder.
+
+############################# map ################################
+map:
+  enable : true
+  title : "Temukan Kami"
