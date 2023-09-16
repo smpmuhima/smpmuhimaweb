@@ -38,7 +38,7 @@ link = "plugins/google-map/gmap.js"
 logo = "images/logo.svg"
 logo_footer = "images/logo_footer.svg"
 # Meta data
-description = "SMP Muhammadiyah 5 Ngoro. Cerdas, Kreatif, Terampil dan Berakhlaqul Karimah. Terletak Jalan Raya Kembangsri, No. 54, Kec. Ngoro, Kabupaten Mojokerto, Jawa Timur."
+description = "SMP Muhammadiyah 5 Ngoro. Cerdas, Kreatif, Terampil dan Berakhlaqul Karimah. Berlokasi di Jalan Raya Kembangsri, No. 54, Kec. Ngoro, Kabupaten Mojokerto, Jawa Timur."
 author = "SMP Muhima"
 # contact info
 address = "Jl. Kembangsri No. 54, Ds. Kembangsri, Kec. Ngoro, Kabupaten Mojokerto, Jawa Timur 61385"
