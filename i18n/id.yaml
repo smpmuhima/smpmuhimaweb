@@ -7,6 +7,9 @@
 - id: send
   translation: Kirim pesan
 
+- id: send_form
+  translation: Kirim Formulir
+
 - id: contact_info
   translation: Info kontak
 
@@ -126,3 +129,6 @@
 
 - id: prayer_time
   translation: Jadwal Sholat
+
+- id: registration_new_students
+  translation: Pendaftaran Peserta Didik Baru
