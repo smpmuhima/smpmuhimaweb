@@ -43,22 +43,22 @@ banner_feature:
   feature_item:
     # feature item loop
     - name : "Scholorship"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      icon : "ti-book"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
 
     # feature item loop
     - name : "Notice Board"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      icon : "ti-blackboard"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
 
     # feature item loop
     - name : "Achievements"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      icon : "ti-agenda"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
 
     # feature item loop
     - name : "Admission"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      icon : "ti-write"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
 
 ############################## about ##################################

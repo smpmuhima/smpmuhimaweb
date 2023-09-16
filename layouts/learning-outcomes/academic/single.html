@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<!-- event single -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">{{ .Title }}</h2>
+      </div>
+      <!-- research image -->
+      <div class="col-12 mb-4">
+        <img style="width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100">
+      </div>
+    </div>
+    <!-- research details -->
+    <div class="row">
+      <div class="col-12 mb-50 content">
+        {{ .Content }}
+        {{ with .Params.Download_link }} <a href="{{ . | absURL }}" class="btn btn-primary">{{ i18n "download" }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /event single -->
+
+{{ end }}

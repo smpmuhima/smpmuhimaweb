@@ -1,5 +1,5 @@
 ---
-title: "Hervy Qurrotul Ainur Rozi"
+title: "Hervy Qurrotul Ainur Rozi, S. Kom."
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.webp"

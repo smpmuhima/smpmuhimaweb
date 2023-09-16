@@ -1,5 +1,5 @@
 ---
-title: "Artikel"
+title: "Program Unggulan"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.webp"

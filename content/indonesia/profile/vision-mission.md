@@ -5,7 +5,7 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.webp"
 # meta description
-description : "Kurikulum Operasional SMP Muhammadiyah 5 Ngoro ini disusun untuk memungkinkan penyesuaian program pendidikan dengan kebutuhan dan potensi yang ada di sekolah."
+description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # Profile image
 image: "images/profile/vision-mission-purpose.png"
 # type

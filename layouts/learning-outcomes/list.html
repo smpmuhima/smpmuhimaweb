@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<!-- profile -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range .Data.Pages}}
+      <!-- profile item -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ .Render "profile" }}</div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /profile -->
+
+{{ end }}

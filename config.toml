@@ -125,64 +125,69 @@ copyright = "Hakcipta &copy; 2023 SMP Muhima Ngoro"
 [[Languages.id.menu.main]]
 weight = 2
 name = "Berita"
+url = "blog/"
+
+[[Languages.id.menu.main]]
+weight = 3
+name = "Informasi"
 hasChildren = true
 
   [[Languages.id.menu.main]]
   weight = 1
-  parent = "Berita"
-  name = "Blog"
-  url = "blog/"
+  parent = "Informasi"
+  name = "Alur Pendaftaran"
+  url = "information/registration-flow/"
 
   [[Languages.id.menu.main]]
   weight = 2
-  parent = "Berita"
-  name = "Buletin"
-  url = "bulletin/"
+  parent = "Informasi"
+  name = "Program Unggulan"
+  url = "information/featured-program/"
   
   [[Languages.id.menu.main]]
   weight = 3
-  parent = "Berita"
-  name = "Dokumen"
-  url = "document/"
+  parent = "Informasi"
+  name = "Ekstrakulikuler"
+  url = "information/extracurricular/"
 
   [[Languages.id.menu.main]]
   weight = 4
-  parent = "Berita"
-  name = "Galeri"
-  url = "gallery/"
-
+  parent = "Informasi"
+  name = "Buletin Kajian"
+  url = "information/bulletin/"
+  
   [[Languages.id.menu.main]]
   weight = 5
-  parent = "Berita"
-  name = "Jadwal"
-  url = "schedule/"
+  parent = "Informasi"
+  name = "Dokumen & Publikasi"
+  url = "information/document/"
 
   [[Languages.id.menu.main]]
   weight = 6
-  parent = "Berita"
-  name = "Pengumuman"
-  url = "notice/"
+  parent = "Informasi"
+  name = "Galeri Foto & Video"
+  url = "information/gallery/"
 
   [[Languages.id.menu.main]]
   weight = 7
-  parent = "Berita"
-  name = "Prestasi"
-  url = "performance/"
-
+  parent = "Informasi"
+  name = "Jadwal Sekolah"
+  url = "information/schedule/"
+  
   [[Languages.id.menu.main]]
   weight = 8
-  parent = "Berita"
-  name = "Publikasi"
-  url = "publication/"
+  parent = "Informasi"
+  name = "Kelulusan"
+  url = "information/graduation/"
 
   [[Languages.id.menu.main]]
   weight = 9
-  parent = "Berita"
-  name = "Testimoni"
-  url = "testimony/"
+  parent = "Informasi"
+  name = "Pengumuman"
+  url = "information/notice/"
 
 [[Languages.id.menu.main]]
-weight = 3
+weight = 4
 name = "Agenda"
 hasChildren = true
 
@@ -225,37 +230,8 @@ hasChildren = true
   [[Languages.id.menu.main]]
   weight = 7
   parent = "Agenda"
-  name = "P5"
-  url = "agenda/p5/"
-
-[[Languages.id.menu.main]]
-weight = 4
-name = "Informasi"
-hasChildren = true
-
-  [[Languages.id.menu.main]]
-  weight = 1
-  parent = "Informasi"
-  name = "Alur Pendaftaran"
-  url = "information/registration-flow/"
-
-  [[Languages.id.menu.main]]
-  weight = 2
-  parent = "Informasi"
-  name = "Program Unggulan"
-  url = "information/program-unggulan/"
-  
-  [[Languages.id.menu.main]]
-  weight = 3
-  parent = "Informasi"
-  name = "Ekstrakulikuler"
-  url = "information/extracurricular/"
-  
-  [[Languages.id.menu.main]]
-  weight = 4
-  parent = "Informasi"
-  name = "Kelulusan"
-  url = "information/Graduation/"
+  name = "Program P5"
+  url = "agenda/p5-program/"
 
 [[Languages.id.menu.main]]
 weight = 5
@@ -290,7 +266,7 @@ hasChildren = true
   weight = 2
   parent = "Formulir"
   name = "Pendaftaran Alumni"
-  url = "form/alumni-list/"
+  url = "form/registration-alumni/"
 
   [[Languages.id.menu.main]]
   weight = 3
@@ -355,25 +331,25 @@ hasChildren = true
 
 [[Languages.id.menu.footer]]
 weight = 1
-name = "Acara"
-url = "event/"
+name = "Pendaftaran Siswa"
+url = "form/registration-new-students/"
 
 [[Languages.id.menu.footer]]
 weight = 2
-name = "Layanan"
-url = "service/"
+name = "Pengumuman"
+url = "information/notice/"
 
 [[Languages.id.menu.footer]]
 weight = 3
-name = "Pengumuman"
-url = "notice/"
+name = "Jadwal Sekolah"
+url = "information/schedule/"
 
 [[Languages.id.menu.footer]]
 weight = 4
-name = "Galeri"
-url = "gallery/"
+name = "Galeri Foto & Video"
+url = "information/gallery/"
 
 [[Languages.id.menu.footer]]
 weight = 5
-name = "Formulir"
-url = "form/"
+name = "Lowongan Kerja"
+url = "form/job-vacancy/"

@@ -43,22 +43,22 @@ banner_feature:
   feature_item:
     # feature item loop
     - name : "Tahfidz Al-Quran dan Hadist"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      icon : "ti-book"
       content : "Program unggulan SMP Muhima agar menjadi penghafal Al-Quran yang berkarakter dan menguasai ilmu pnegetahuan."
 
     # feature item loop
     - name : "Prestasi dan Penghargaan"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      icon : "ti-write"
       content : "SMP Muhima menciptakan lingkungan juara bagi peserta didik agar dapat berkiprah di kancah tingkat daerah dan nasional."
 
     # feature item loop
     - name : "Kurikulum"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      icon : "ti-blackboard"
       content : "Kurikulum yang digunakan oleh SMP Muhima adalah kurikulum nasional dan kurikulum khas Muhammadiyah."
 
     # feature item loop
     - name : "Ekstrakulikuler"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      icon : "ti-agenda"
       content : "Pentingnya ragam dan potensi setiap peserta didik yang didukung dengan program ekstrakulikuler."
 
 ############################## about ##################################
