@@ -1,0 +1,458 @@
+{{ define "main" }}
+
+<!-- contact -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-title">{{ i18n "registration_new_students" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
+
+          <h3 class="mt-5 mb-3">Data Pribadi</h3>
+
+          <div class="form-group row">
+            <label class="col-sm-12 col-form-label">Tahun Ajaran :</label>
+            <div class="col-sm-12 input-group">
+              <select class="custom-select" name="tahun-ajaran[]" required="true">
+                <option selected value="2024/2025">2024/2025</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="nama-lengkap">Nama Lengkap :</label>
+              <input type="text" class="form-control" name="nama-lengkap" placeholder="Contoh: Yusuf Bakhtiar" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="nama-panggilan">Nama Panggilan :</label>
+              <input type="text" class="form-control" name="nama-panggilan" placeholder="Contoh: Yusuf" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="tempat-tanggal-lahir">Tempat dan Tanggal Lahir :</label>
+              <input type="text" class="form-control" name="tempat-tanggal-lahir" placeholder="Contoh: Mojokerto, 1 Januari 2001" required="true">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Jenis Kelamin :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="jenis-kelamin[]" required="true">
+                <option selected value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Golongan Darah :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="jenis-kelamin[]" required="true">
+                <option selected value="A">A</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                <option value="AB">AB</option>
+                <option value="Tidak tahu">Tidak tahu</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Agama :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="agama[]" required="true">
+                <option selected value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katholik">Katholik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+                <option value="Kong Hu Cu">Kong Hu Cu</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-8">
+              <label for="alamat-asal">Alamat Asal :</label>
+              <input type="text" class="form-control" name="alamat-asal" value="" required="true">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="kode-pos">Kode Pos :</label>
+              <input type="text" class="form-control" name="kode-pos" value="61385" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="alamat-sekarang">Alamat Sekarang :</label>
+              <input type="text" class="form-control" name="alamat-sekarang" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="telp">Nomer Telefon :</label>
+              <input type="number" class="form-control" name="telp" placeholder="Contoh: 081234567890" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="jumlah-saudara">Jumlah Saudara Kandung/Tiri :</label>
+              <input type="text" class="form-control" name="jumlah-saudara" placeholder="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="bahasa-sehari-hari">Bahasa Sehari-hari :</label>
+              <input type="text" class="form-control" name="bahasa-sehari-hari" placeholder="Contoh: Indonesia, Jawa" required="true">
+            </div>
+          </div>
+
+          <h3 class="mt-5 mb-3">Data Pendidikan</h3>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="sekolah-asal">Sekolah Asal :</label>
+              <input type="text" class="form-control" name="sekolah-asal" value="Contoh: SD Muhammadiyah Ngoro" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="ijazah-terakhir">Ijazah Terakhir :</label>
+              <input type="text" class="form-control" name="ijazah-terakhir" value="SD/MI" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="tanggal-no-skl">Tanggal/No SKL :</label>
+              <input type="text" class="form-control" name="tanggal-no-skl" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="alamat-sekolah">Alamat Sekolah :</label>
+              <input type="text" class="form-control" name="alamat-sekolah" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="nilai-rata-rata-skun">Nilai Rata-rata SKUN :</label>
+              <input type="text" class="form-control" name="nilai-rata-rata-skun" value="" required="true">
+            </div>
+          </div>
+
+          <h3 class="mt-5 mb-3">Data Orang Tua</h3>
+          
+          <h4 class="mt-5 mb-3">Ayah</h4>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="nama-ayah">Nama Ayah :</label>
+              <input type="text" class="form-control" name="nama-ayah" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="alamat-ayah">Alamat Ayah :</label>
+              <input type="text" class="form-control" name="alamat-ayah" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="pekerjaan-ayah">Pekerjaan Ayah :</label>
+              <input type="text" class="form-control" name="pekerjaan-ayah" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="telp-ayah">Nomer Telefon Ayah :</label>
+              <input type="number" class="form-control" name="telp-ayah" placeholder="Contoh: 081234567890" required="true">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Keadaan Ayah :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="keadaan-ayah[]" required="true">
+                <option selected value="Masih Hidup">Masih Hidup</option>
+                <option value="Meninggal">Meninggal</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Status Ayah :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="status-ayah[]" required="true">
+                <option selected value="Sudah Menikah">Sudah Menikah</option>
+                <option value="Cerai">Cerai</option>
+              </select>
+            </div>
+          </div>
+
+          <h4 class="mt-5 mb-3">Ibu</h4>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="nama-ibu">Nama Ibu :</label>
+              <input type="text" class="form-control" name="nama-ibu" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="pekerjaan-ibu">Pekerjaan Ibu :</label>
+              <input type="text" class="form-control" name="pekerjaan-ibu" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="alamat-ibu">Alamat Ibu :</label>
+              <input type="text" class="form-control" name="alamat-ibu" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="telp-ibu">Nomer Telefon Ibu :</label>
+              <input type="number" class="form-control" name="telp-ibu" placeholder="Contoh: 081234567890" required="true">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Keadaan Ibu :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="keadaan-ibu[]" required="true">
+                <option selected value="Masih Hidup">Masih Hidup</option>
+                <option value="Meninggal">Meninggal</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Status Ibu :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="status-ibu[]" required="true">
+                <option selected value="Sudah Menikah">Sudah Menikah</option>
+                <option value="Cerai">Cerai</option>
+              </select>
+            </div>
+          </div>
+
+          <h4 class="mt-5 mb-3">Wali Siswa</h4>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="nama-wali">Nama Wali :</label>
+              <input type="text" class="form-control" name="nama-wali" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="pekerjaan-wali">Pekerjaan Wali :</label>
+              <input type="text" class="form-control" name="pekerjaan-wali" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="alamat-wali">Alamat Wali :</label>
+              <input type="text" class="form-control" name="alamat-wali" value="" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="telp-wali">Nomer Telefon Wali :</label>
+              <input type="number" class="form-control" name="telp-wali" placeholder="Contoh: 081234567890" required="true">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Keadaan Wali :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="keadaan-wali[]" required="true">
+                <option selected value="Masih Hidup">Masih Hidup</option>
+                <option value="Meninggal">Meninggal</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Status Wali :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="status-wali[]" required="true">
+                <option selected value="Sudah Menikah">Sudah Menikah</option>
+                <option value="Cerai">Cerai</option>
+              </select>
+            </div>
+          </div>
+
+          <h3 class="mt-5 mb-3">Program Kelas yang Dipilih</h3>
+
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm form-check">
+                <input type="radio" class="form-check-input" id="kelas-it" name="pilih-kelas" value="X">
+                <label class="form-check-label" for="kelas-it" checked>
+                  Kelas IT
+                </label>
+              </div>
+              <div class="col-sm form-check">
+                <input type="radio" class="form-check-input" id="kelas-tahfidz" name="pilih-kelas" value="X">
+                <label class="form-check-label" for="kelas-tahfidz">
+                  Kelas Tahfidz
+                </label>
+              </div>
+              <div class="col-sm form-check">
+                <input type="radio" class="form-check-input" id="kelas-reguler" name="pilih-kelas" value="X">
+                <label class="form-check-label" for="kelas-reguler">
+                  Kelas Reguler
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="mt-5 mb-3">Kelengkapan Dokumen</h3>
+
+          <p>Pastikan sebelum mengirim formulir pendaftaran, Anda sudah mempersiapkan file scan dan memiliki kelengkapan dokumen dibawah ini yang semuanya sudah dikompresi dengan <b>.ZIP</b>.</p>
+          
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="scan-ijazah" name="scan-ijazah" value="X">
+                <label class="custom-control-label" for="scan-ijazah">Scan Ijazah Legalisir (PDF)</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="scan-skl" name="scan-skl" value="X">
+                <label class="custom-control-label" for="scan-skl">Scan SKL Legalisir (PDF)</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="scan-nisn" name="scan-nisn" value="X">
+                <label class="custom-control-label" for="scan-nisn">Scan NISN (PDF)</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="scan-akta" name="scan-akta" value="X">
+                <label class="custom-control-label" for="scan-akta">Scan Akta Kelahiran (PDF)</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="scan-kk" name="scan-kk" value="X">
+                <label class="custom-control-label" for="scan-kk">Scan Kartu Keluarga (PDF)</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="scan-ktp-ortu-wali" name="scan-ktp-ortu-wali" value="X">
+                <label class="custom-control-label" for="scan-ktp-ortu-wali">Scan KTP Orang Tua / Wali (PDF)</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="scan-kip-pip-pkh" name="scan-kip-pip-pkh" value="X">
+                <label class="custom-control-label" for="scan-kip-pip-pkh">Scan KIP / PIP / PKH bagi yang punya (PDF)</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="foto-3x4" name="foto-3x4" value="X">
+                <label class="custom-control-label" for="foto-3x4">Foto 3x4 (PNG)</label>
+              </div>
+            </div>
+          </div>
+
+          <p>Beri nama file dengan format <b>(nama-peserta)-ppdb-smp-muhima.zip</b>.<br>
+            Sebagai contoh: <i>yusuf-bakhtiar-ppdb-smp-muhima.zip</i>.
+            Kemudian kirimkan via WhatsApp atau Email kami.
+          </p>
+
+          <h3 class="mt-5 mb-3">Kelengkapan Administrasi</h3>
+
+          <p>Pendaftaran PPDB sebesar <b>Rp XX.XXX,00</b> dapat dilakukan secara transfer melalui rekening <b>0123456789. A.n. SMP Muhima Ngoro</b>.</p>
+          
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="col-sm custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="bayar-pendaftaran" name="bayar-pendaftaran" value="X">
+                <label class="custom-control-label" for="bayar-pendaftaran">Telah melakukan pembayaran sebesar <b>Rp XX.XXX,00</b></label>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" value="send" class="mt-5 mb-3 btn btn-primary">{{ i18n "send_form" }}</button>
+        </form>
+
+      </div>
+
+      <div class="col-lg-5 content">
+        {{ .Content }}
+        <a href="tel:{{ site.Params.mobile }}" class="text-color h5 d-block">{{ site.Params.mobile }}</a>
+        <a href="mailto:{{ site.Params.email }}" class="mb-5 text-color h5 d-block">{{ site.Params.email }}</a>
+        <p>{{ site.Params.address | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- gmap -->
+<section class="section pt-0">
+  <!-- Google Map -->
+  <div id="map_canvas"
+  data-latitude="{{ site.Params.map.map_latitude }}"
+  data-longitude="{{ site.Params.map.map_longitude }}"
+  data-marker="{{ site.Params.map.map_marker | absURL }}"
+  data-marker-name="{{ site.Title }}"></div>
+</section>
+<!-- /gmap -->
+
+{{ end }}
