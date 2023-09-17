@@ -132,3 +132,6 @@
 
 - id: registration_new_students
   translation: Pendaftaran Peserta Didik Baru
+
+- id: registration_alumni
+  translation: Pendaftaran Alumni
