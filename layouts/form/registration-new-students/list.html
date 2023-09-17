@@ -177,15 +177,54 @@
 
           <div class="form-row">
             <div class="form-group col-md-12">
-              <label for="pekerjaan-ayah">Pekerjaan Ayah :</label>
-              <input type="text" class="form-control" name="pekerjaan-ayah" value="" required="true">
+              <label for="telp-ayah">Nomer Telefon Ayah :</label>
+              <input type="number" class="form-control" name="telp-ayah" placeholder="Contoh: 081234567890" required="true">
             </div>
           </div>
 
-          <div class="form-row">
-            <div class="form-group col-md-12">
-              <label for="telp-ayah">Nomer Telefon Ayah :</label>
-              <input type="number" class="form-control" name="telp-ayah" placeholder="Contoh: 081234567890" required="true">
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Pekerjaan Ayah :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="pekerjaan-ayah[]" required="true">
+                <option selected value="Pegawai/Karyawan">Pegawai/Karyawan</option>
+                <option value="Advokat">Advokat</option>
+                <option value="Akuntan">Akuntan</option>
+                <option value="Apoteker">Apoteker</option>
+                <option value="Arsitek">Arsitek</option>
+                <option value="Dokter">Dokter</option>
+                <option value="Dosen">Dosen</option>
+                <option value="Guru">Guru</option>
+                <option value="Insinyur">Insinyur</option>
+                <option value="Mengurus Rumah Tangga">Mengurus Rumah Tangga</option>
+                <option value="Nelayan">Nelayan</option>
+                <option value="Paramedis">Paramedis</option>
+                <option value="Pedagang">Pedagang</option>
+                <option value="Pengrajin">Pengrajin</option>
+                <option value="Pengusaha">Pengusaha</option>
+                <option value="Pensiunan">Pensiunan</option>
+                <option value="Petani">Petani</option>
+                <option value="Relawan">Relawan</option>
+                <option value="Wiraswasta">Wiraswasta</option>
+                <option value="Tidak Bekerja">Tidak Bekerja</option>
+                <option value="Lainnya">Lainnya</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Pendidikan Ayah :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="pendidikan-terakhir-ayah[]" required="true">
+                <option selected value="SD">SD</option>
+                <option value="SMP">SMP</option>
+                <option value="SMA/SMK">SMA/SMK</option>
+                <option value="D1">D1</option>
+                <option value="D2">D2</option>
+                <option value="D3">D3</option>
+                <option value="S1">S1</option>
+                <option value="S2">S2</option>
+                <option value="S3">S3</option>
+              </select>
             </div>
           </div>
 
@@ -220,13 +259,6 @@
 
           <div class="form-row">
             <div class="form-group col-md-12">
-              <label for="pekerjaan-ibu">Pekerjaan Ibu :</label>
-              <input type="text" class="form-control" name="pekerjaan-ibu" value="" required="true">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group col-md-12">
               <label for="alamat-ibu">Alamat Ibu :</label>
               <input type="text" class="form-control" name="alamat-ibu" value="" required="true">
             </div>
@@ -236,6 +268,52 @@
             <div class="form-group col-md-12">
               <label for="telp-ibu">Nomer Telefon Ibu :</label>
               <input type="number" class="form-control" name="telp-ibu" placeholder="Contoh: 081234567890" required="true">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Pekerjaan Ibu :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="pekerjaan-ibu[]" required="true">
+                <option selected value="Pegawai/Karyawan">Pegawai/Karyawan</option>
+                <option value="Advokat">Advokat</option>
+                <option value="Akuntan">Akuntan</option>
+                <option value="Apoteker">Apoteker</option>
+                <option value="Arsitek">Arsitek</option>
+                <option value="Dokter">Dokter</option>
+                <option value="Dosen">Dosen</option>
+                <option value="Guru">Guru</option>
+                <option value="Insinyur">Insinyur</option>
+                <option value="Mengurus Rumah Tangga">Mengurus Rumah Tangga</option>
+                <option value="Nelayan">Nelayan</option>
+                <option value="Paramedis">Paramedis</option>
+                <option value="Pedagang">Pedagang</option>
+                <option value="Pengrajin">Pengrajin</option>
+                <option value="Pengusaha">Pengusaha</option>
+                <option value="Pensiunan">Pensiunan</option>
+                <option value="Petani">Petani</option>
+                <option value="Relawan">Relawan</option>
+                <option value="Wiraswasta">Wiraswasta</option>
+                <option value="Tidak Bekerja">Tidak Bekerja</option>
+                <option value="Lainnya">Lainnya</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Pendidikan Ibu :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="pendidikan-terakhir-ibu[]" required="true">
+                <option selected value="SD">SD</option>
+                <option value="SMP">SMP</option>
+                <option value="SMA/SMK">SMA/SMK</option>
+                <option value="D1">D1</option>
+                <option value="D2">D2</option>
+                <option value="D3">D3</option>
+                <option value="S1">S1</option>
+                <option value="S2">S2</option>
+                <option value="S3">S3</option>
+              </select>
             </div>
           </div>
 
@@ -270,13 +348,6 @@
 
           <div class="form-row">
             <div class="form-group col-md-12">
-              <label for="pekerjaan-wali">Pekerjaan Wali :</label>
-              <input type="text" class="form-control" name="pekerjaan-wali" value="" required="true">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group col-md-12">
               <label for="alamat-wali">Alamat Wali :</label>
               <input type="text" class="form-control" name="alamat-wali" value="" required="true">
             </div>
@@ -286,6 +357,52 @@
             <div class="form-group col-md-12">
               <label for="telp-wali">Nomer Telefon Wali :</label>
               <input type="number" class="form-control" name="telp-wali" placeholder="Contoh: 081234567890" required="true">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Pekerjaan Wali :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="pekerjaan-wali[]" required="true">
+                <option selected value="Pegawai/Karyawan">Pegawai/Karyawan</option>
+                <option value="Advokat">Advokat</option>
+                <option value="Akuntan">Akuntan</option>
+                <option value="Apoteker">Apoteker</option>
+                <option value="Arsitek">Arsitek</option>
+                <option value="Dokter">Dokter</option>
+                <option value="Dosen">Dosen</option>
+                <option value="Guru">Guru</option>
+                <option value="Insinyur">Insinyur</option>
+                <option value="Mengurus Rumah Tangga">Mengurus Rumah Tangga</option>
+                <option value="Nelayan">Nelayan</option>
+                <option value="Paramedis">Paramedis</option>
+                <option value="Pedagang">Pedagang</option>
+                <option value="Pengrajin">Pengrajin</option>
+                <option value="Pengusaha">Pengusaha</option>
+                <option value="Pensiunan">Pensiunan</option>
+                <option value="Petani">Petani</option>
+                <option value="Relawan">Relawan</option>
+                <option value="Wiraswasta">Wiraswasta</option>
+                <option value="Tidak Bekerja">Tidak Bekerja</option>
+                <option value="Lainnya">Lainnya</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Pendidikan Wali :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="pendidikan-terakhir-wali[]" required="true">
+                <option selected value="SD">SD</option>
+                <option value="SMP">SMP</option>
+                <option value="SMA/SMK">SMA/SMK</option>
+                <option value="D1">D1</option>
+                <option value="D2">D2</option>
+                <option value="D3">D3</option>
+                <option value="S1">S1</option>
+                <option value="S2">S2</option>
+                <option value="S3">S3</option>
+              </select>
             </div>
           </div>
 
@@ -415,15 +532,15 @@
             Kemudian kirimkan via WhatsApp atau Email kami.
           </p>
 
-          <h3 class="mt-5 mb-3">Kelengkapan Administrasi</h3>
+          <h3 class="mt-5 mb-3">Biaya Administrasi</h3>
 
-          <p>Pendaftaran PPDB sebesar <b>Rp XX.XXX,00</b> dapat dilakukan secara transfer melalui rekening <b>0123456789. A.n. SMP Muhima Ngoro</b>.</p>
+          <p>Pendaftaran PPDB sebesar <b>Rp 40.000,00</b> dapat dilakukan secara transfer melalui rekening <b>XXXXXXXXX. A.n. SMP Muhima Ngoro</b>.</p>
           
           <div class="form-group row">
             <div class="col-sm-12 input-group">
               <div class="col-sm custom-control custom-checkbox">
                 <input type="checkbox" class="custom-control-input" id="bayar-pendaftaran" name="bayar-pendaftaran" value="X">
-                <label class="custom-control-label" for="bayar-pendaftaran">Telah melakukan pembayaran sebesar <b>Rp XX.XXX,00</b></label>
+                <label class="custom-control-label" for="bayar-pendaftaran">Telah melakukan pembayaran sebesar <b>Rp 40.000,00</b></label>
               </div>
             </div>
           </div>
