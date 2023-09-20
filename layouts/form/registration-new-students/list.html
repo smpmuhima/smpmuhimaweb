@@ -431,12 +431,6 @@
           <div class="form-group row">
             <div class="col-sm-12 input-group">
               <div class="mb-3 col-sm form-check">
-                <input type="radio" class="form-check-input" id="kelas-it" name="pilih-kelas" value="X">
-                <label class="form-check-label" for="kelas-it" checked>
-                  Kelas IT
-                </label>
-              </div>
-              <div class="mb-3 col-sm form-check">
                 <input type="radio" class="form-check-input" id="kelas-tahfidz" name="pilih-kelas" value="X">
                 <label class="form-check-label" for="kelas-tahfidz">
                   Kelas Tahfidz
@@ -453,94 +447,96 @@
 
           <h3 class="mt-5 mb-3">Kelengkapan Dokumen</h3>
 
-          <p>Pastikan sebelum mengirim formulir pendaftaran, Anda sudah mempersiapkan file scan dan memiliki kelengkapan dokumen dibawah ini yang semuanya sudah dikompresi dengan <b>.ZIP</b>.</p>
-          
           <div class="form-group row">
-            <div class="col-sm-12 input-group">
-              <div class="col-sm custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="scan-ijazah" name="scan-ijazah" value="X">
-                <label class="custom-control-label" for="scan-ijazah">Scan Ijazah Legalisir (PDF)</label>
-              </div>
-            </div>
-          </div>
-          
-          <div class="form-group row">
-            <div class="col-sm-12 input-group">
-              <div class="col-sm custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="scan-skl" name="scan-skl" value="X">
-                <label class="custom-control-label" for="scan-skl">Scan SKL Legalisir (PDF)</label>
-              </div>
-            </div>
-          </div>
-          
-          <div class="form-group row">
-            <div class="col-sm-12 input-group">
-              <div class="col-sm custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="scan-nisn" name="scan-nisn" value="X">
-                <label class="custom-control-label" for="scan-nisn">Scan NISN (PDF)</label>
-              </div>
-            </div>
-          </div>
-          
-          <div class="form-group row">
-            <div class="col-sm-12 input-group">
-              <div class="col-sm custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="scan-akta" name="scan-akta" value="X">
-                <label class="custom-control-label" for="scan-akta">Scan Akta Kelahiran (PDF)</label>
-              </div>
-            </div>
-          </div>
-          
-          <div class="form-group row">
-            <div class="col-sm-12 input-group">
-              <div class="col-sm custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="scan-kk" name="scan-kk" value="X">
-                <label class="custom-control-label" for="scan-kk">Scan Kartu Keluarga (PDF)</label>
-              </div>
-            </div>
-          </div>
-          
-          <div class="form-group row">
-            <div class="col-sm-12 input-group">
-              <div class="col-sm custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="scan-ktp-ortu-wali" name="scan-ktp-ortu-wali" value="X">
-                <label class="custom-control-label" for="scan-ktp-ortu-wali">Scan KTP Orang Tua / Wali (PDF)</label>
-              </div>
-            </div>
-          </div>
-          
-          <div class="form-group row">
-            <div class="col-sm-12 input-group">
-              <div class="col-sm custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="scan-kip-pip-pkh" name="scan-kip-pip-pkh" value="X">
-                <label class="custom-control-label" for="scan-kip-pip-pkh">Scan KIP / PIP / PKH bagi yang punya (PDF)</label>
-              </div>
-            </div>
-          </div>
-          
-          <div class="form-group row">
-            <div class="col-sm-12 input-group">
-              <div class="col-sm custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="foto-3x4" name="foto-3x4" value="X">
-                <label class="custom-control-label" for="foto-3x4">Foto 3x4 (PNG)</label>
+            <label class="col-sm-7 col-form-label">Scan Ijazah Legalisir (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-ijazah" lang="in">
+                <label class="custom-file-label" for="scan-ijazah">Pilih Berkas</label>
               </div>
             </div>
           </div>
 
-          <p>Beri nama file dengan format <b>(nama-peserta)-ppdb-smp-muhima.zip</b>.<br>
-            Sebagai contoh: <i>yusuf-bakhtiar-ppdb-smp-muhima.zip</i>.
-            Kemudian kirimkan via WhatsApp atau Email kami.
-          </p>
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Scan SKL Legalisir (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-skl" lang="in">
+                <label class="custom-file-label" for="scan-skl">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Scan NISN (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-nisn" lang="in">
+                <label class="custom-file-label" for="scan-nisn">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Scan Akta Kelahiran (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-akta" lang="in">
+                <label class="custom-file-label" for="scan-akta">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Scan Kartu Keluarga (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-kk" lang="in">
+                <label class="custom-file-label" for="scan-kk">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Scan KTP Orang Tua / Wali (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-ktp-ortu-wali" lang="in">
+                <label class="custom-file-label" for="scan-ktp-ortu-wali">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Scan KIP / PIP / PKH bagi yang punya (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-kip-pip-pkh" lang="in">
+                <label class="custom-file-label" for="scan-kip-pip-pkh">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Foto 3x4 (PNG) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="foto-3x4" lang="in">
+                <label class="custom-file-label" for="foto-3x4">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
 
           <h3 class="mt-5 mb-3">Biaya Administrasi</h3>
 
-          <p>Pendaftaran PPDB sebesar <b>Rp 40.000,00</b> dapat dilakukan secara transfer melalui rekening <b>XXXXXXXXX. A.n. SMP Muhima Ngoro</b>.</p>
+          <p>Pendaftaran PPDB sebesar <b>Rp 50.000,00</b> dapat dilakukan secara transfer melalui rekening <b>BSI XXXXXXXXX</b>. A.n. <b>SMP Muhammadiyah 5 Ngoro</b>.</p>
           
           <div class="form-group row">
-            <div class="col-sm-12 input-group">
-              <div class="col-sm custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="bayar-pendaftaran" name="bayar-pendaftaran" value="X">
-                <label class="custom-control-label" for="bayar-pendaftaran">Telah melakukan pembayaran sebesar <b>Rp 40.000,00</b></label>
+            <label class="col-sm-7 col-form-label">Foto/Bukti Pembayaran :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="bayar-pendaftaran" lang="in">
+                <label class="custom-file-label" for="bayar-pendaftaran">Pilih Berkas</label>
               </div>
             </div>
           </div>

@@ -1,0 +1,230 @@
+{{ define "main" }}
+
+<!-- contact -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-title">{{ i18n "registration_job_vacancy" }}: {{ .Title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
+          
+          <h5 class="mt-5 mb-3">Periode: {{ .Params.Periode | markdownify }}</h5>
+
+          <h3 class="mt-5 mb-3">Data Pribadi</h3>
+
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <label for="gelar-dpn">Gelar Depan :</label>
+              <input type="text" class="form-control" name="gelar-dpn" placeholder="">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputCity">Nama Lengkap :</label>
+              <input type="text" class="form-control" name="nama" placeholder="" required="true">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="inputState">Gelar Belakang :</label>
+              <input type="text" class="form-control" name="gelar-blk" placeholder="">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="tempat-tanggal-lahir">Email :</label>
+              <input type="email" class="form-control" name="email" placeholder="Contoh: nama@email.com" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="tempat-lahir">Tempat Lahir :</label>
+              <input type="text" class="form-control" name="tempat-lahir" placeholder="Contoh: Mojokerto" required="true">
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="tanggal-lahir">Tanggal Lahir :</label>
+              <input type="date" class="form-control" name="tanggal-lahir" placeholder="" required="true">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Jenis Kelamin :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="jenis-kelamin[]" required="true">
+                <option selected value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Golongan Darah :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="jenis-kelamin[]" required="true">
+                <option selected value="A">A</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                <option value="AB">AB</option>
+                <option value="Tidak tahu">Tidak tahu</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Agama :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="agama[]" required="true">
+                <option selected value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katholik">Katholik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+                <option value="Kong Hu Cu">Kong Hu Cu</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Pendidikan Terakhir :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="pendidikan-terakhir[]" required="true">
+                <option selected value="SMA/SMK">SMA/SMK</option>
+                <option value="D1">D1</option>
+                <option value="D2">D2</option>
+                <option value="D3">D3</option>
+                <option value="S1">S1</option>
+                <option value="S2">S2</option>
+                <option value="S3">S3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-8">
+              <label for="alamat">Alamat :</label>
+              <input type="text" class="form-control" name="alamat" value="" required="true">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="kode-pos">Kode Pos :</label>
+              <input type="text" class="form-control" name="kode-pos" value="61385" required="true">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="telp">Nomer Telefon :</label>
+              <input type="number" class="form-control" name="telp" placeholder="Contoh: 081234567890" required="true">
+            </div>
+          </div>
+
+          <h3 class="mt-5 mb-3">Pengalaman</h3>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="pengalaman-kerja">Pengalaman Kerja :</label>
+              <textarea type="text" class="form-control" name="pengalaman-kerja" placeholder="Contoh: - Guru SMP Muhammadiyah 5 Ngoro (2015-2016)" required="true"></textarea>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="pengalaman-organisasi">Pengalaman Organisasi :</label>
+              <textarea type="text" class="form-control" name="pengalaman-organisasi" placeholder="Contoh: - Sekretaris IMM Universitas (2018-2019)" required="true"></textarea>
+            </div>
+          </div>
+
+          <h3 class="mt-5 mb-3">Kelengkapan Dokumen</h3>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Scan Ijazah Terakhir (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-ijazah" lang="in">
+                <label class="custom-file-label" for="scan-ijazah">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Scan Transkrip Nilai (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-transkrip" lang="in">
+                <label class="custom-file-label" for="scan-transkrip">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Curriculum Vitae (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-ijazah" lang="in">
+                <label class="custom-file-label" for="scan-ijazah">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Lamaran Pekerjaan (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="lamaran-pekerjaan" lang="in">
+                <label class="custom-file-label" for="lamaran-pekerjaan">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Scan KTP (PDF) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="scan-ktp" lang="in">
+                <label class="custom-file-label" for="scan-ktp">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-7 col-form-label">Pas Foto 3x4 (PNG) :</label>
+            <div class="col-sm-5 input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="foto-3x4" lang="in">
+                <label class="custom-file-label" for="foto-3x4">Pilih Berkas</label>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" value="send" class="mt-5 mb-3 btn btn-primary">{{ i18n "send_form" }}</button>
+        </form>
+
+      </div>
+
+      <div class="col-lg-5 content">
+        {{ .Content }}
+        <a href="tel:{{ site.Params.mobile }}" class="text-color h5 d-block">{{ site.Params.mobile }}</a>
+        <a href="mailto:{{ site.Params.email }}" class="mb-5 text-color h5 d-block">{{ site.Params.email }}</a>
+        <p>{{ site.Params.address | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- gmap -->
+<section class="section pt-0">
+  <!-- Google Map -->
+  <div id="map_canvas"
+  data-latitude="{{ site.Params.map.map_latitude }}"
+  data-longitude="{{ site.Params.map.map_longitude }}"
+  data-marker="{{ site.Params.map.map_marker | absURL }}"
+  data-marker-name="{{ site.Title }}"></div>
+</section>
+<!-- /gmap -->
+
+{{ end }}

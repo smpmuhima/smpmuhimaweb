@@ -135,3 +135,6 @@
 
 - id: registration_alumni
   translation: Pendaftaran Alumni
+
+- id: registration_job_vacancy
+  translation: Pendaftaran Lowongan Kerja
