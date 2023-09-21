@@ -3,6 +3,42 @@ body {
   overflow-x: hidden;
 }
 
+/* table */
+
+table {
+  display: block;
+  margin-bottom: 1rem;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  overflow-x: auto;
+  table-layout: fixed;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  th,
+  td {
+    padding: .75rem;
+    vertical-align: top;
+    border: 1px solid #dee2e6;
+    white-space: nowrap;
+  }
+
+  thead {
+    background: darken($color: $light, $amount: 2);
+  }
+
+  tbody {
+    background: $light;
+
+    td {
+      text-align: left !important;
+    }
+  }
+}
+
 ::selection {
   background: lighten($color: $primary-color, $amount: 10);
   color: $white;
@@ -362,41 +398,6 @@ textarea.form-control{
       }
     }
   }
-
-  table {
-    display: block;
-    margin-bottom: 1rem;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-    overflow-x: auto;
-    table-layout: fixed;
-    text-align: left;
-    white-space: nowrap;
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-
-    th,
-    td {
-      padding: .75rem;
-      vertical-align: top;
-      border: 1px solid #dee2e6;
-      white-space: nowrap;
-    }
-
-    thead {
-      background: darken($color: $light, $amount: 2);
-    }
-
-    tbody {
-      background: $light;
-
-      td {
-        text-align: left !important;
-      }
-    }
-  }
-
 
   blockquote {
     p {
