@@ -5,7 +5,7 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.webp"
 # meta description
-description: "Jadwal sekolah yaitu memudahkan pembagian waktu berdasarkan rencana pengaturan urutan kerja yang ditulis dalam bentuk daftar atau tabel kegiatan."
+description: "Jadwal sekolah memudahkan pembagian waktu berdasarkan rencana pengaturan urutan kerja yang ditulis dalam bentuk daftar atau tabel kegiatan."
 # post thumbnail
 image: "images/schedule/jadwal-sekolah-2023-2024.webp"
 # post author
