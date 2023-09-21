@@ -5,7 +5,7 @@ draft: false
 description: "Pengajar, Penulis, Programmer dan Kreator LangitKetujuh OS"
 email: "hervyqa@proton.me"
 # portrait
-image: "images/author/author-1.png"
+image: "images/author/author-1.webp"
 social:
   - icon : "ti-link"
     link : "https://hervyqa.id/"

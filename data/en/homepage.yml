@@ -65,7 +65,7 @@ banner_feature:
 about:
   enable : true
   title : "About Al-Mujahidin"
-  image : "images/about/about-us.png"
+  image : "images/about/about-us.webp"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
   button:
     enable : true

@@ -65,7 +65,7 @@ banner_feature:
 about:
   enable : true
   title : "Profil SMP Muhima Ngoro"
-  image : "images/about/about-us.png"
+  image : "images/about/about-us.webp"
   content : "SMP Muhammadiyah 5 Ngoro akan menjadi sekolah yang memiliki Kurikulum yang disesuaikan dengan situasi dan kondisi lingkungan sekolah, sehingga terselenggara proses pendidikan yang berbasis lingkungan sekolah dengan mengembangkan berbagai keunggulan-keunggulan dan kreatifitas dan inovasi sekolah."
   button:
     enable : true

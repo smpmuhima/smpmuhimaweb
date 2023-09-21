@@ -1,13 +1,13 @@
 ---
 title: "Elegant Light Box Paper Cut Dioramas"
 date: 2023-09-12T15:27:17+06:00
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # post thumbnail
-image: "images/blog/post-1.png"
+image: "images/blog/post-1.webp"
 # post author
 author: "hervy qurrotul ainur rozi"
 # taxonomy

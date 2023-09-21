@@ -7,7 +7,7 @@ bg_image: "images/backgrounds/page-title.webp"
 # meta description
 description : "Letak Geografis SMP Muhima Ngoro dekat dengan jalan raya utama Mojosari-Porong"
 # Profile image
-image: "images/profile/location.png"
+image: "images/profile/location.webp"
 # type
 type: "profile/location"
 ---
