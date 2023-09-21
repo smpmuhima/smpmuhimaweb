@@ -1,14 +1,5 @@
-- beranda
-- berita
-    - blog
-    - buletin
-    - dokumen
-    - galeri
-    - jadwal
-    - pengumuman
-    - prestasi
-    - publikasi
-    - testimoni
+- [x] beranda
+- [x] berita
 - agenda
     - jurnalistik
     - kajian
@@ -16,25 +7,30 @@
     - marbot muhima hijrah
     - market day
     - muhadhoroh
-    - P5
+    - program P5
 - informasi
     - alur pendaftaran
     - program unggulan
     - ekstrakulikuler
+    - buletin
+    - dokumen & publikasi
+    - galeri foto & video
+    - [x] jadwal sekolah
     - kelulusan
+    - pengumuman
 - hasil-belajar
     - akademik
     - non-akademik
 - formulir
-    - daftar peserta didik baru
-    - daftar alumni
+    - [x] pendaftaran peserta didik baru
+    - [x] pendaftaran alumni
     - bimbingan konseling
-    - lowongan kerja
+    - [x] lowongan kerja
     - tanya jawab
 - profil
     - sejarah
-    - visi & misi
-    - guru & tenaga pendidikan
+    - [x] visi & misi
+    - [x] guru & tenaga pendidikan
     - inventaris
-    - lokasi
-    - kontak
+    - [x] lokasi
+    - [x] kontak
