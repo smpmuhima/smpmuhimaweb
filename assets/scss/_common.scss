@@ -66,8 +66,12 @@ ul {
 }
 
 img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
   vertical-align: middle;
-  border: 0;
+  border-radius: .25rem !important;
+  display: block;
 }
 
 a,
@@ -321,8 +325,6 @@ textarea.form-control{
   height: 500px;
 }
 
-
-
 .post-thumb-sm {
   max-width: 100px;
 }
@@ -407,6 +409,14 @@ textarea.form-control{
     }
   }
 
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: .25rem !important;
+    display: block;
+    margin: 10px auto 20px;
+  }
 
   pre {
     padding: 10px 20px;
