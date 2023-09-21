@@ -7,7 +7,7 @@ bg_image: "images/backgrounds/page-title.webp"
 # meta description
 description: "Piket harian guru adalah kegiatan yang dilakukan oleh guru piket dalam mengontrol kegiatan pembelajaran."
 # post thumbnail
-image: "images/schedule/jadwal-piket-guru-muhima.webp"
+image: "images/schedule/jadwal-guru-piket-muhima.webp"
 # post author
 author: "Admin Muhima"
 # taxonomy
