@@ -1,11 +1,11 @@
 ---
-title: "Jadwal Piket Guru SMP Muhima"
+title: "Jadwal Guru Piket SMP Muhima"
 date: 2023-09-21T09:48:02+07:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.webp"
 # meta description
-description: "Jadwal terbaru Guru Piket SMP Muhammadiyah 5 Ngoro (SMP Muhima)."
+description: "Piket harian guru adalah kegiatan yang dilakukan oleh guru piket dalam mengontrol kegiatan pembelajaran."
 # post thumbnail
 image: "images/schedule/jadwal-piket-guru-muhima.webp"
 # post author
@@ -19,7 +19,11 @@ type: "schedule"
 
 ## Jadwal Guru Piket
 
-Berikut ini jadwal piket guru SMP Muhammadiyah 5 Ngoro:
+Piket harian guru adalah kegiatan yang dilakukan oleh guru piket dalam mengontrol kegiatan pembelajaran, mengisi daftar hadir guru, menyiapkan surat izin bagi siswa yang meninggalkan sekolah dan sebagainya.
+
+Guru piket itu sendiri merupakan pendidik yang mendapatkan tugas tambahan dari kepala sekolah terkait hal tersebut.
+
+Berikut ini jadwal harian guru piket SMP Muhammadiyah 5 Ngoro.
 
 | Nomer | Hari   | Nama Guru                        |
 |:------|:-------|:---------------------------------|
@@ -41,12 +45,12 @@ Berikut ini jadwal piket guru SMP Muhammadiyah 5 Ngoro:
 
 ### Jam masuk
 
-Bapak/Ibu Guru piket dimohon untuk hadir 10 menit sebelum bel masuk berbunyi (06.30 WIB), serta mengkoordinir dan mendampingi pelaksanaan sholat dhuha dan muroja'a hadist.
+Bapak/Ibu guru piket dimohon untuk hadir 10 menit sebelum bel masuk berbunyi (06.30 WIB), serta mengkoordinir dan mendampingi pelaksanaan sholat dhuha dan muroja'a hadist.
 
 ### Jam Kosong
 
-Bapak/Ibu Guru Piket dimohon mencatat dan memberikan pembinaan/sanksi bagi siswa yang terlambat.
+Bapak/Ibu guru Piket dimohon mencatat dan memberikan pembinaan/sanksi bagi siswa yang terlambat.
 
 ### Jadwal Imam
 
-Bapak Guru Piket dimohon menjadi imam sholat, sholat Dhuhur dan sholat Ashar.
+Bapak guru piket dimohon menjadi imam sholat, baik sholat dhuhur dan sholat ashar.
