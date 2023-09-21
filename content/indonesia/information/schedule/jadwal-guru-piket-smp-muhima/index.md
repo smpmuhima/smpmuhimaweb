@@ -31,7 +31,7 @@ Berikut ini jadwal harian guru piket SMP Muhammadiyah 5 Ngoro.
 | 2     | Selasa | Jumarlik, S.pdI                  |
 |       |        | Eka Setya Wulandari              |
 |       |        | Hervy Qurrotul Ainur Rozi, S.Kom |
-| 3     | Rabu   | Nillatul Izzah, M.Pd             |
+| 3     | Rabu   | Niilatul 'Izzah, M.Pd            |
 |       |        | Iid Fitria Ningrum, S.Pd         |
 |       |        | Amirul Aziz                      |
 | 4     | Kamis  | Jumarlik, S.pdI                  |
