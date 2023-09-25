@@ -1,7 +1,7 @@
 ---
 title: "Guru Bahasa Inggris"
 date: 2023-02-06T15:27:17+06:00
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/page-title.webp"
 # meta description
@@ -10,7 +10,7 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 image: "images/profile/contact.webp"
 # type
 type: "form/job-vacancy/job-item"
-periode: "17 September - 17 Oktober 2023"
+periode: "1 Oktober - 31 Oktober 2023"
 ---
 
 Dibuka lowongan kerja Guru Bahasa Inggris.
