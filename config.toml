@@ -45,7 +45,7 @@ address = "Jl. Kembangsri No. 54, Ds. Kembangsri, Kec. Ngoro, Kabupaten Mojokert
 mobile = "+6285176935108"
 email = "smpmuhimangoro@gmail.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://fabform.io/f/ip9FF8x"
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
