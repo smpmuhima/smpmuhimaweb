@@ -1,8 +1,8 @@
 ---
-title: "Jadwal Sekolah"
+title: "Lowongan Kerja"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.webp"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Temukan passion kamu di SMP Muhima. Menjadi pengajar profesional yang memiliki tugas utama untuk mendidik, mengajar, membimbing, mengarahkan, melatih, menilai dan mengevaluasi peserta didik."
 ---
