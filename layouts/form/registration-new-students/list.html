@@ -10,7 +10,8 @@
     </div>
     <div class="row">
       <div class="col-lg-7 mb-4 mb-lg-0">
-        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
+        <!-- <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST"> -->
+        <form name="registration_new_students" netlify-honeypot="bot-field" action="/form/success" method="POST" data-netlify-recaptcha="true" data-netlify="true">
 
           <h3 class="mt-5 mb-3">Data Pribadi</h3>
 
@@ -539,6 +540,10 @@
                 <label class="custom-file-label" for="bayar-pendaftaran">Pilih Berkas</label>
               </div>
             </div>
+          </div>
+
+          <div class="mb-5">
+            <div data-netlify-recaptcha="true"></div>
           </div>
 
           <button type="submit" value="send" class="mt-5 mb-3 btn btn-primary">{{ i18n "send_form" }}</button>
