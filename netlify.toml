@@ -41,3 +41,15 @@ HUGO_ENABLEGITINFO = "true"
   for = "*.css" # css files too
   [headers.values]
     Cache-Control = "public, max-age=31536000"
+
+[[redirects]]
+  from = "https://smpmuhima.sch.id/job"
+  to = "https://smpmuhima.sch.id/form/job-vacancy/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://smpmuhima.sch.id/ppdb"
+  to = "https://smpmuhima.sch.id/form/registration-new-students/"
+  status = 301
+  force = true
