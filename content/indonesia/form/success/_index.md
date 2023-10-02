@@ -12,5 +12,5 @@ image: "images/profile/contact.webp"
 type: "form/success"
 ---
 
-Anda sudah mengisi formulir, kami akan merespon pada jam kerja (08.00-17.00 GMT+7).
+Anda sudah mengisi formulir, kami akan merespon pada jam kerja (08.00-15.00 GMT+7).
 _Syukran wa jazaakumullahu khairan katsiran._
