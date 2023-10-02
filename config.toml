@@ -32,6 +32,10 @@ link = "plugins/venobox/venobox.min.js"
 link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
+[[params.plugins.js]]
+link = "plugins/back-to-top/vanilla-back-to-top.min.js"
+[[params.plugins.js]]
+link = "plugins/live-chat/live-chat.js"
 
 #################### default parameters ################################
 [params]

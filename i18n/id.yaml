@@ -138,3 +138,29 @@
 
 - id: registration_job_vacancy
   translation: Pendaftaran Lowongan Kerja
+
+### live chat
+
+- id: livechat-title
+  translation: Ada yang ditanyakan?
+
+- id: livechat-subtitle
+  translation: Dialihkan ke layanan yang tersedia
+
+- id: livechat-chat-1
+  translation: Mengobrol melalui Telegram
+
+- id: livechat-chat-2
+  translation: Mengobrol melalui WhatsApp
+
+- id: livechat-label
+  translation: Pesan
+
+- id: livechat-msg
+  translation: Kami insyaAllah online pada jam 07.00-15.00 WIB
+
+- id: livechat-first-msg
+  translation: Assalamu'alaikum kak! Ada yang bisa kami bantu?
+
+- id: livechat-show-chat
+  translation: Butuh Bantuan?
