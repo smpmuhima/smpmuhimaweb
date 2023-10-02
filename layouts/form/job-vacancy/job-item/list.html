@@ -20,7 +20,7 @@
           <div class="form-group row">
             <label class="col-sm-4 col-form-label">Profesi :</label>
             <div class="col-sm-8 input-group">
-              <select class="custom-select" name="agama[]" required="true">
+              <select class="custom-select" name="job[]" required="true">
                 <option selected value="Staff Administrator & Operator">Staff Administrator & Operator</option>
                 <option value="Staff TU">Staff Tata Usaha</option>
                 <option value="Guru Matematika">Guru Matematika</option>
@@ -57,11 +57,11 @@
               <input type="text" class="form-control" name="gelar-dpn" placeholder="">
             </div>
             <div class="form-group col-md-6">
-              <label for="inputCity">Nama Lengkap :</label>
+              <label for="nama-lengkap">Nama Lengkap :</label>
               <input type="text" class="form-control" name="nama" placeholder="" required="true">
             </div>
             <div class="form-group col-md-3">
-              <label for="inputState">Gelar Belakang :</label>
+              <label for="gelar-blk">Gelar Belakang :</label>
               <input type="text" class="form-control" name="gelar-blk" placeholder="">
             </div>
           </div>
@@ -100,7 +100,7 @@
           <div class="form-group row">
             <label class="col-sm-4 col-form-label">Golongan Darah :</label>
             <div class="col-sm-8 input-group">
-              <select class="custom-select" name="jenis-kelamin[]" required="true">
+              <select class="custom-select" name="goldar[]" required="true">
                 <option selected value="A">A</option>
                 <option value="B">B</option>
                 <option value="O">O</option>
@@ -181,7 +181,7 @@
             <label class="col-sm-7 col-form-label">Scan Ijazah Terakhir (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-ijazah" lang="in" required="true">
+                <input type="file" class="custom-file-input" id="scan-ijazah" name="scan-ijazah" lang="in" required="true">
                 <label class="custom-file-label" for="scan-ijazah">Pilih Berkas</label>
               </div>
             </div>
@@ -191,7 +191,7 @@
             <label class="col-sm-7 col-form-label">Scan SKHUN/Transkrip Nilai (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-transkrip" lang="in" required="true">
+                <input type="file" class="custom-file-input" id="scan-transkrip" name="scan-transkrip" lang="in" required="true">
                 <label class="custom-file-label" for="scan-transkrip">Pilih Berkas</label>
               </div>
             </div>
@@ -201,8 +201,8 @@
             <label class="col-sm-7 col-form-label">Curriculum Vitae (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-ijazah" lang="in" required="true">
-                <label class="custom-file-label" for="scan-ijazah">Pilih Berkas</label>
+                <input type="file" class="custom-file-input" id="curriculum-vitae" name="curriculum-vitae" lang="in" required="true">
+                <label class="custom-file-label" for="curriculum-vitae">Pilih Berkas</label>
               </div>
             </div>
           </div>
@@ -211,7 +211,7 @@
             <label class="col-sm-7 col-form-label">Lamaran Pekerjaan (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="lamaran-pekerjaan" lang="in" required="true">
+                <input type="file" class="custom-file-input" id="lamaran-pekerjaan" name="lamaran-pekerjaan" lang="in" required="true">
                 <label class="custom-file-label" for="lamaran-pekerjaan">Pilih Berkas</label>
               </div>
             </div>
@@ -221,7 +221,7 @@
             <label class="col-sm-7 col-form-label">Scan KTP (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-ktp" lang="in" required="true">
+                <input type="file" class="custom-file-input" id="scan-ktp" name="scan-ktp" lang="in" required="true">
                 <label class="custom-file-label" for="scan-ktp">Pilih Berkas</label>
               </div>
             </div>
@@ -231,7 +231,7 @@
             <label class="col-sm-7 col-form-label">Pas Foto 3x4 (PNG) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="foto-3x4" lang="in" required="true">
+                <input type="file" class="custom-file-input" id="foto" name="foto" lang="in" required="true">
                 <label class="custom-file-label" for="foto-3x4">Pilih Berkas</label>
               </div>
             </div>
