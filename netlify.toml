@@ -53,3 +53,9 @@ HUGO_ENABLEGITINFO = "true"
   to = "https://smpmuhima.sch.id/form/registration-new-students/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://smpmuhima.sch.id/daftar"
+  to = "https://smpmuhima.sch.id/form/registration-new-students/"
+  status = 301
+  force = true
