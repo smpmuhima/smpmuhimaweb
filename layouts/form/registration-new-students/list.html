@@ -65,7 +65,7 @@
           <div class="form-group row">
             <label class="col-sm-4 col-form-label">Golongan Darah :</label>
             <div class="col-sm-8 input-group">
-              <select class="custom-select" name="jenis-kelamin[]" required="true">
+              <select class="custom-select" name="goldar[]" required="true">
                 <option selected value="A">A</option>
                 <option value="B">B</option>
                 <option value="O">O</option>
@@ -439,13 +439,13 @@
           <div class="form-group row">
             <div class="col-sm-12 input-group">
               <div class="mb-3 col-sm form-check">
-                <input type="radio" class="form-check-input" id="kelas-tahfidz" name="pilih-kelas" value="X">
+                <input type="radio" class="form-check-input" id="kelas-tahfidz" name="pilih-kelas" value="Tahfidz">
                 <label class="form-check-label" for="kelas-tahfidz">
                   Kelas Tahfidz
                 </label>
               </div>
               <div class="mb-3 col-sm form-check">
-                <input type="radio" class="form-check-input" id="kelas-reguler" name="pilih-kelas" value="X">
+                <input type="radio" class="form-check-input" id="kelas-reguler" name="pilih-kelas" value="Reguler">
                 <label class="form-check-label" for="kelas-reguler">
                   Kelas Reguler
                 </label>
@@ -455,14 +455,14 @@
 
           <h3 class="mt-5 mb-3">Kelengkapan Dokumen</h3>
 
-          <p>Pastikan per dokumen anda tidak melebihi 1 MB agar resource kami tidak terjadi galat.</p>
+          <p>Pastikan <b>per dokumen anda tidak melebihi 1 MB</b> agar resource kami tidak terjadi galat.</p>
 
           <div class="form-group row">
             <label class="col-sm-7 col-form-label">Scan Ijazah Legalisir (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-ijazah" name="scan-ijazah" lang="in" required="true">
-                <label class="custom-file-label" for="scan-ijazah">Pilih Berkas</label>
+                <input type="file" accept="application/pdf" class="custom-file-input" id="scan-ijazah" name="scan-ijazah" lang="in" required="true">
+                <label class="custom-file-label" for="scan-ijasah">Pilih Berkas</label>
               </div>
             </div>
           </div>
@@ -471,7 +471,7 @@
             <label class="col-sm-7 col-form-label">Scan SKL Legalisir (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-skl" name="scan-skl" lang="in" required="true">
+                <input type="file" accept="application/pdf" class="custom-file-input" id="scan-skl" name="scan-skl" lang="in" required="true">
                 <label class="custom-file-label" for="scan-skl">Pilih Berkas</label>
               </div>
             </div>
@@ -481,7 +481,7 @@
             <label class="col-sm-7 col-form-label">Scan NISN (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-nisn" name="scan-nisn" lang="in" required="true">
+                <input type="file" accept="application/pdf" class="custom-file-input" id="scan-nisn" name="scan-nisn" lang="in" required="true">
                 <label class="custom-file-label" for="scan-nisn">Pilih Berkas</label>
               </div>
             </div>
@@ -491,7 +491,7 @@
             <label class="col-sm-7 col-form-label">Scan Akta Kelahiran (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-akta" name="scan-akta" lang="in" required="true">
+                <input type="file" accept="application/pdf" class="custom-file-input" id="scan-akta" name="scan-akta" lang="in" required="true">
                 <label class="custom-file-label" for="scan-akta">Pilih Berkas</label>
               </div>
             </div>
@@ -501,7 +501,7 @@
             <label class="col-sm-7 col-form-label">Scan Kartu Keluarga (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-kk" name="scan-kk" lang="in" required="true">
+                <input type="file" accept="application/pdf" class="custom-file-input" id="scan-kk" name="scan-kk" lang="in" required="true">
                 <label class="custom-file-label" for="scan-kk">Pilih Berkas</label>
               </div>
             </div>
@@ -511,7 +511,7 @@
             <label class="col-sm-7 col-form-label">Scan KTP Orang Tua / Wali (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-ktp-ortu-wali" name="scan-ktp-ortu-wali" lang="in" required="true">
+                <input type="file" accept="application/pdf" class="custom-file-input" id="scan-ktp-ortu-wali" name="scan-ktp-ortu-wali" lang="in" required="true">
                 <label class="custom-file-label" for="scan-ktp-ortu-wali">Pilih Berkas</label>
               </div>
             </div>
@@ -521,7 +521,7 @@
             <label class="col-sm-7 col-form-label">Scan KIP / PIP / PKH bagi yang punya (PDF) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="scan-kip-pip-pkh" name="scan-kip-pip-pkh" lang="in">
+                <input type="file" accept="application/pdf" class="custom-file-input" id="scan-kip-pip-pkh" name="scan-kip-pip-pkh" lang="in">
                 <label class="custom-file-label" for="scan-kip-pip-pkh">Pilih Berkas</label>
               </div>
             </div>
@@ -531,7 +531,7 @@
             <label class="col-sm-7 col-form-label">Foto 3x4 (PNG) :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="foto" name="foto" lang="in">
+                <input type="file" accept="image/png, image/jpeg" class="custom-file-input" id="foto" name="foto" lang="in">
                 <label class="custom-file-label" for="foto">Pilih Berkas</label>
               </div>
             </div>
@@ -545,7 +545,7 @@
             <label class="col-sm-7 col-form-label">Foto/Bukti Pembayaran :</label>
             <div class="col-sm-5 input-group mb-3">
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="bayar-pendaftaran" name="bayar-pendaftaran" lang="in" required="true">
+                <input type="file" accept="image/png, image/jpeg" class="custom-file-input" id="bayar-pendaftaran" name="bayar-pendaftaran" lang="in" required="true">
                 <label class="custom-file-label" for="bayar-pendaftaran">Pilih Berkas</label>
               </div>
             </div>
