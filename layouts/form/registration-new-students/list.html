@@ -117,7 +117,7 @@
           <div class="form-row">
             <div class="form-group col-md-12">
               <label for="jumlah-saudara">Jumlah Saudara Kandung/Tiri :</label>
-              <input type="text" class="form-control" name="jumlah-saudara" placeholder="" required="true">
+              <input type="number" class="form-control" name="jumlah-saudara" placeholder="" required="true">
             </div>
           </div>
 
@@ -137,10 +137,17 @@
             </div>
           </div>
 
-          <div class="form-row">
-            <div class="form-group col-md-12">
-              <label for="ijazah-terakhir">Ijazah Terakhir :</label>
-              <input type="text" class="form-control" name="ijazah-terakhir" placeholder="SD/MI" required="true">
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Ijazah Terakhir :</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="ijazah-terakhir[]" required="true">
+                <option selected value="SD">SD</option>
+                <option value="MI">MI</option>
+                <option value="SDLB">SDLB</option>
+                <option value="SDTK">SDTK</option>
+                <option value="Paket A">Paket A</option>
+                <option value="Adi WP">Adi WP</option>
+              </select>
             </div>
           </div>
 
