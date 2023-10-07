@@ -39,7 +39,7 @@ slider:
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
+  image : "images/banner/banner-feature.webp"
   feature_item:
     # feature item loop
     - name : "Tahfidz Al-Quran dan Hadist"
