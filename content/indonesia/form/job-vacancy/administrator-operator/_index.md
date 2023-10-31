@@ -1,7 +1,7 @@
 ---
 title: "Administrator dan Operator"
 date: 2023-02-06T15:27:17+06:00
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/page-title.webp"
 # meta description
