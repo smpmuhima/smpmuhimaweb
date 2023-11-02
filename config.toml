@@ -263,7 +263,7 @@ hasChildren = true
   [[Languages.id.menu.main]]
   weight = 1
   parent = "Formulir"
-  name = "Pendaftaran Peserta Didik Baru"
+  name = "Pendaftaran Siswa Baru"
   url = "form/registration-new-students/"
 
   [[Languages.id.menu.main]]
