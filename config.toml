@@ -310,7 +310,7 @@ hasChildren = true
   [[Languages.id.menu.main]]
   weight = 3
   parent = "Profil"
-  name = "Guru & Tenaga Pendidik"
+  name = "Guru & Staff"
   url = "profile/teacher/"
 
   [[Languages.id.menu.main]]
