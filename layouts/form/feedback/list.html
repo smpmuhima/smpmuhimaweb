@@ -1,0 +1,143 @@
+{{ define "main" }}
+
+<!-- contact -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-title">{{ i18n "feedback" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <!-- <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST"> -->
+        <form name="feedback" netlify-honeypot="bot-field" action="/form/success" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+
+          <h3 class="mt-5 mb-3">Personal</h3>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="name">Nama Lengkap :</label>
+              <input type="text" class="form-control" name="nama" placeholder="Contoh: Hamba Allah" required="true">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Status:</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="status[]" required="true">
+                <option selected value="Sembunyikan">Sembunyikan</option>
+                <option value="Murid Kelas 7">Murid Kelas 7</option>
+                <option value="Murid Kelas 8">Murid Kelas 8</option>
+                <option value="Murid Kelas 9">Murid Kelas 9</option>
+                <option value="Wali Murid Kelas 7">Wali Murid Kelas 7</option>
+                <option value="Wali Murid Kelas 8">Wali Murid Kelas 8</option>
+                <option value="Wali Murid Kelas 9">Wali Murid Kelas 9</option>
+                <option value="Lainnya">Lainnya</option>
+              </select>
+            </div>
+          </div>
+
+          <h3 class="mt-5 mb-3">Saran & Kritik</h3>
+
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Tujuan:</label>
+            <div class="col-sm-8 input-group">
+              <select class="custom-select" name="tujuan[]" required="true">
+                <option selected value="Umum">Umum</option>
+                <option value="Abdir Rahman Abin Masud, S. Pd.">Abdir Rahman Abin Masud, S. Pd.</option>
+                <option value="Amirul Aziz">Amirul Aziz</option>
+                <option value="Kelas 9">Dimas Agastya Sansa</option>
+                <option value="Dimas Agastya Sansa">Dimas Agastya Sansa</option>
+                <option value="Eka Setya Wulandari, S. Pd.">Eka Setya Wulandari, S. Pd.</option>
+                <option value="Hervy Qurrotul Ainur Rozi, S. Kom.">Hervy Qurrotul Ainur Rozi, S. Kom.</option>
+                <option value="Iid Fitria Ningrum, S. Pd.">Iid Fitria Ningrum, S. Pd.</option>
+                <option value="Jumarlik, S. PdI.">Jumarlik, S. PdI.</option>
+                <option value="Niilatul Izzah, M. Pd.">Niilatul Izzah, M. Pd.</option>
+                <option value="Nikmatus Sofia, S. pd.">Nikmatus Sofia, S. pd.</option>
+                <option value="Qurrata A'yun, S. PdI.">Qurrata A'yun, S. PdI.</option>
+                <option value="Shita Anastasia, S. Pd.">Shita Anastasia, S. Pd.</option>
+                <option value="Toto' Abdullah, S. Psi.">Toto' Abdullah, S. Psi.</option>
+                <option value="Yeni Usmidayanti, S. PdI.">Yeni Usmidayanti, S. PdI.</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="message">Pesan :</label>
+              <textarea type="text" class="form-control" name="message" placeholder="Saran dari saya untuk SMP Muhima adalah..." required="true"></textarea>
+            </div>
+          </div>
+
+          <h3 class="mt-5 mb-3">Beri Bintang!</h3>
+
+          <p>Terakhir, beri kami penilaian dari 1-5.</p>
+
+          <div class="form-group row">
+            <div class="col-sm-12 input-group">
+              <div class="mb-3 col-sm form-check">
+                <input type="radio" class="form-check-input" id="bintang_1" name="bintang" value="1">
+                <label class="form-check-label" for="bintang_1">
+                  1 <i class="ti-star"></i>
+                </label>
+              </div>
+              <div class="mb-3 col-sm form-check">
+                <input type="radio" class="form-check-input" id="bintang_2" name="bintang" value="2">
+                <label class="form-check-label" for="bintang_2">
+                  2 <i class="ti-star"></i>
+                </label>
+              </div>
+              <div class="mb-3 col-sm form-check">
+                <input type="radio" class="form-check-input" id="bintang_3" name="bintang" value="3">
+                <label class="form-check-label" for="bintang_3">
+                  3 <i class="ti-star"></i>
+                </label>
+              </div>
+              <div class="mb-3 col-sm form-check">
+                <input type="radio" class="form-check-input" id="bintang_4" name="bintang" value="4">
+                <label class="form-check-label" for="bintang_4">
+                  4 <i class="ti-star"></i>
+                </label>
+              </div>
+              <div class="mb-3 col-sm form-check">
+                <input type="radio" class="form-check-input" id="bintang_5" name="bintang" value="5" checked>
+                <label class="form-check-label" for="bintang_5">
+                  5 <i class="ti-star"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+
+          <button type="submit" value="send" class="mt-5 mb-3 btn btn-primary">{{ i18n "send_form" }}</button>
+        </form>
+
+      </div>
+
+      <div class="col-lg-5 content">
+        {{ .Content }}
+        <a href="tel:{{ site.Params.mobile }}" class="text-color h5 d-block">{{ site.Params.mobile }}</a>
+        <a href="mailto:{{ site.Params.email }}" class="mb-5 text-color h5 d-block">{{ site.Params.email }}</a>
+        <p>{{ site.Params.address | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- gmap -->
+<section class="section pt-0">
+  <!-- Google Map -->
+  <div id="map_canvas"
+  data-latitude="{{ site.Params.map.map_latitude }}"
+  data-longitude="{{ site.Params.map.map_longitude }}"
+  data-marker="{{ site.Params.map.map_marker | absURL }}"
+  data-marker-name="{{ site.Title }}"></div>
+</section>
+<!-- /gmap -->
+
+{{ end }}

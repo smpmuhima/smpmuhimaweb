@@ -290,6 +290,12 @@ hasChildren = true
   name = "Tanya & Jawab"
   url = "form/question-answer/"
 
+  [[Languages.id.menu.main]]
+  weight = 6
+  parent = "Formulir"
+  name = "Umpan Balik"
+  url = "form/feedback/"
+
 [[Languages.id.menu.main]]
 weight = 7
 name = "Profil"

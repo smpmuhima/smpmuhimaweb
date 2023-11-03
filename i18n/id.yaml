@@ -78,7 +78,7 @@
 
 - id: join
   translation: Bergabung
-  
+
 - id: enter_email
   translation: Masukkan email anda…
 
@@ -138,6 +138,9 @@
 
 - id: registration_job_vacancy
   translation: Pendaftaran Lowongan Kerja
+
+- id: feedback
+  translation: Umpan Balik
 
 ### live chat
 
