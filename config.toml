@@ -294,7 +294,7 @@ hasChildren = true
   weight = 6
   parent = "Formulir"
   name = "Umpan Balik"
-  url = "form/feedback/"
+  url = "form/user-feedback/"
 
 [[Languages.id.menu.main]]
 weight = 7

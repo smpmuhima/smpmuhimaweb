@@ -62,6 +62,6 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "https://smpmuhima.sch.id/saran"
-  to = "https://smpmuhima.sch.id/form/feedback/"
+  to = "https://smpmuhima.sch.id/form/user-feedback/"
   status = 301
   force = true

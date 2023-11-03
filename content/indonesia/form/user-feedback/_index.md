@@ -9,7 +9,7 @@ description : "Jika punya saran dan kritikan untuk SMP Muhima boleh diisi form f
 # Contact image
 image: "images/profile/contact.webp"
 # type
-type: "form/feedback"
+type: "form/user-feedback"
 ---
 
 Jika anda mengalami kendala bisa menghubungi kami melalui formulir ini atau melalui WhatsApp.
