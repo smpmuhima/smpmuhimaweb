@@ -10,7 +10,7 @@ description : "Guru Bahasa Arab memiliki peran yang penting di sekolah. Mau jadi
 image: "images/profile/contact.webp"
 # type
 type: "form/job-vacancy/job-item"
-periode: "9 Oktober - 9 November 2023"
+periode: "11 Desember - 11 Desember 2023"
 ---
 
 Dibuka lowongan kerja Guru Bahasa Arab.

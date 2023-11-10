@@ -10,7 +10,7 @@ description : "Guru Ilmu Pengetahuan Sosial memiliki peran yang penting di sekol
 image: "images/profile/contact.webp"
 # type
 type: "form/job-vacancy/job-item"
-periode: "9 Oktober - 9 November 2023"
+periode: "11 Desember - 11 Desember 2023"
 ---
 
 Dibuka lowongan kerja Guru Ilmu Pengetahuan Sosial.

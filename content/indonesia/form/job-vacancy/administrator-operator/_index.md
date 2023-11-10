@@ -10,7 +10,7 @@ description : "Sesuai dengan tujuan administrator dan operator disekolah, bahwa 
 image: "images/profile/contact.webp"
 # type
 type: "form/job-vacancy/job-item"
-periode: "9 Oktober - 9 November 2023"
+periode: "11 Desember - 11 Desember 2023"
 ---
 
 Dibuka lowongan kerja Administrator dan Operator.
