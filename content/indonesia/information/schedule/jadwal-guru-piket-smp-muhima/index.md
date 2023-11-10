@@ -28,13 +28,13 @@ Berikut ini jadwal harian guru piket SMP Muhammadiyah 5 Ngoro.
 | Nomer | Hari   | Nama Guru                        |
 |:------|:-------|:---------------------------------|
 | 1     | Senin  | Semua Dewan Guru                 |
-| 2     | Selasa | Jumarlik, S.pdI                  |
+| 2     | Selasa | Jumarlik, S.PdI                  |
 |       |        | Eka Setya Wulandari              |
 |       |        | Hervy Qurrotul Ainur Rozi, S.Kom |
 | 3     | Rabu   | Niilatul 'Izzah, M.Pd            |
 |       |        | Iid Fitria Ningrum, S.Pd         |
 |       |        | Amirul Aziz                      |
-| 4     | Kamis  | Jumarlik, S.pdI                  |
+| 4     | Kamis  | Jumarlik, S.PdI                  |
 |       |        | Dimas Agastya Sansa              |
 |       |        | Toto Abdullah, S.Psi             |
 | 5     | Jum'at | Abdir Rohman Abin Mas'ud, S.Pd   |
@@ -53,4 +53,4 @@ Bapak/Ibu guru Piket dimohon mencatat dan memberikan pembinaan/sanksi bagi siswa
 
 ### Jadwal Imam
 
-Bapak guru piket dimohon menjadi imam sholat, baik sholat dhuhur dan sholat ashar.
+Bapak guru piket dimohon menjadi imam sholat, baik sholat dzuhur dan sholat ashar.
